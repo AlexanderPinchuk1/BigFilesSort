@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="FileSort">
+      <HintPath>..\FileSort\FileSort\bin\Debug\netcoreapp3.1\FileSort.dll</HintPath>
+    </Reference>
+    <Reference Include="Generator">
+      <HintPath>..\Generator\Generator\bin\Debug\netcoreapp3.1\Generator.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
